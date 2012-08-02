@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+
+/* meat and potatoes for the test */
+
+
 #colone
 {
     float:left;
@@ -52,7 +56,7 @@ table {
 }
 #coltwo
 {
-    width:50%;
+    width:75%;
     float:left;
     margin:10px 0px;
     height:auto;
@@ -63,9 +67,14 @@ table {
     {
         width:100%;
     }
+	#colone img{
+		width:100%;	
+	}
     #coltwo
     {
         width:100%;
     }
 }
+
+#wrapper{max-width:1024px;margin-left:auto;margin-right:auto;}
 
