@@ -8,11 +8,13 @@
   <meta name="description" content="This is a UI test for Cox Media">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/jquery-1.4.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
 <header>
-	<nav class="headernav">Home > Sports > Longhorns</nav>
+	<nav class="headernav"><a href="#">Home</a> &gt; <a href="#">Sports</a> &gt; <a href="#">Longhorns</a></nav>
+
 </header>
 
 <article>
@@ -21,17 +23,32 @@
 	  </header>
 	<div role="main">
 	<div id="colone">
-		<img src="../images/basketball.jpg" alt="Men's basketball game, purple team going for a layup, while flanked by two white team members" />
+	      <figure class="captioned-image">
+		<img src="../images/basketball.jpg" alt="Texas senior forward Damion James and freshman guard Avery Bradley will be on alert against Kansas 	State just as they were against Texas A&amp;M&apos;s David Loubeau, center, on Saturday." />
+		<span class="credit">Laura Skelding/AMERICAN-STATESMAN</span>
+		<a class="enlarge" href="#stay">ENLARGE PHOTO</a>
+		<figcaption class="caption">Texas senior forward Damion James and freshman guard Avery Bradley will be on alert against Kansas State just as they were against Texas A&amp;M&apos;s David Loubeau, center, on Saturday.</figcaption>
+	      </figure>
 	</div>
+
 	<div id="coltwo">
 		<div class="author">
 			By <a href="http://MarkRosner.com" rel="author">Mark Rosner</a>
-			AMERICAN-STATESMAN STAFF
+			<span class="author-tag">AMERICAN-STATESMAN STAFF</span>
 		</div>
 		<div class="publish">
-			Updated: 11:17 p.m. Sunday, Jan. 17, 2010
-			Published: <time pubdate datetime="2010-01-17">6:57 p.m. Sunday, Jan. 17, 2010</time>
+			<span class="updated">Updated: 11:17 p.m. Sunday, Jan. 17, 2010</span>
+			<span class="published">Published: <time pubdate datetime="2010-01-17">6:57 p.m. Sunday, Jan. 17, 2010</time></span>
 		</div>
+
+		<div class="utility-bar">
+			<a href="#" class="post">Post a Comment</a> |
+			<a href="#" class="email">Email</a> |
+			<a href="#" class="print">Print</a> |
+			<a href="#" class="share">Share</a> |
+			<a href="#" class="type plus">Larger type</a>
+		</div>
+
 		<p>MANHATTAN, Kan. - The Longhorns, three games into their defense of the No. 1 ranking, come to a place where the opponent is formidable, the 			crowd is raucous, and the referees might just wear out their whistles.</p>
 
 		<p>They come to face No. 13 Kansas State, an in-your-face team that reflects the personality of its coach, Frank Martin. The Wildcats spend much of 			their games fouling and shooting free throws.</p>
@@ -54,11 +71,12 @@
 
 </article>
 
-<footer>
+<footer class="page-footer">
 
 </footer>
 </div>
-<script src="../js/scripts.js"></script>
 
+
+<script src="../js/scripts.js"></script>
 </body>
 </html>

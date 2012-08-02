@@ -46,9 +46,18 @@ table {
 
 /* meat and potatoes for the test */
 
+body {
+font-family: Arial,"MS Trebuchet",sans-serif;
+font-size: 14px;
+line-height: 16px;
+color: #202020;
+background-color: #CCC;
+
+}
 
 #colone
 {
+    width: 169px;
     float:left;
     margin:10px 0px;
     height:auto;
@@ -56,7 +65,7 @@ table {
 }
 #coltwo
 {
-    width:75%;
+    width: 431px;
     float:left;
     margin:10px 0px;
     height:auto;
@@ -76,5 +85,96 @@ table {
     }
 }
 
-#wrapper{max-width:1024px;margin-left:auto;margin-right:auto;}
+#wrapper{max-width:620px;margin-left:auto;margin-right:auto;background-color: #ffffff;padding: 15px 30px;}
 
+article header h1 {
+font-family: Georgia,"Times New Roman",Times,serif;
+font-size: 26px;
+line-height: 30px;
+padding: 18px 0;
+}
+
+article p {
+font-size: 14px;
+line-height: 16px;
+margin: 14px 0;
+}
+
+div.author a {
+font-weight: bold;
+color: #C60;
+text-decoration: none;
+}
+
+.headernav{padding: 20px 0 0 0;}
+.headernav a {color: #C60;text-decoration: none;}
+.author-tag{font-size: 11px;line-height: 14px;padding: 2px 0 10px;clear:both;display:block;}
+
+span.updated,span.published{font-size: 12px;line-height: 14px;color: #666;clear:both;display:block;}
+
+div.utility-bar{border-top: 1px dotted #666;margin: 8px 0 0 0;padding: 4px 0 0 0;}
+
+article .utility-bar a
+{
+	color:#202020;
+	font-size:11px;
+	line-height:20px;
+	padding:0 9px 0 18px;
+	background:transparent url(../images/sprites.gif) 0 0 no-repeat;
+	margin-left:4px;
+}
+article .utility-bar a.post
+{
+	background-position:0 -480px;
+}
+article .utility-bar a.email
+{
+	background-position:0 -255px;
+}
+article .utility-bar a.print
+{
+	background-position:0 -301px;
+}
+article .utility-bar a.share
+{
+	background-position:0 -346px;
+}
+article .utility-bar a.type,
+article .utility-bar a.plus
+{
+	background-position:0 -390px;
+}
+article .utility-bar a.minus
+{
+	background-position:0 -435px;
+}
+
+#colone span.credit {
+font-size: 10px;
+line-height: 14px;
+color: 
+#666;
+text-align: right;
+display:block;
+}
+
+#colone a.enlarge {
+margin-top: 8px;
+font-size: 10px;
+line-height: 14px;
+display: block;
+padding: 0 0 0 20px;
+background: transparent url(../images/sprites.gif) 0 -389px no-repeat;
+color: #C60;
+text-decoration: none;
+}
+
+#colone .caption {
+font-size: 12px;
+line-height: 14px;
+padding: 8px 0 0 0;
+}
+
+.page-footer{clear:both}
+
+.article-large-font {font-size: 16px;}
