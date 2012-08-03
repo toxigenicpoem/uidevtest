@@ -57,6 +57,7 @@ html
 		background: linear-gradient(to bottom,  rgba(204,204,204,0.65) 0%,rgba(255,255,255,0) 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6cccccc', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
 		height:100%;
+		min-height:800px;/*kind of cheating since we know content height, but this keeps the gradient from clipping when smaller HTML element size*/
 	}
 
 body
@@ -149,7 +150,8 @@ body
 			}
 		.headernav a 
 			{
-				color: #C60;text-decoration: none;
+				color: #C60;
+				text-decoration: none;
 			}
 		.author-tag
 			{
@@ -183,6 +185,7 @@ body
 					padding:0 9px 0 18px;
 					background:transparent url(../images/sprites.gif) 0 0 no-repeat;
 					margin-left:4px;
+					text-decoration: none;
 				}
 			article .utility-bar a.post
 				{
